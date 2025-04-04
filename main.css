@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    background-image: url(img/image\ 1\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav ul a{
+    color: white;
+    background-color: #009FF5B5;
+    padding: 14px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #DAD3FF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav ul a::before{
+    content: url(img/image\ 4\ \(3\).png);
+
+}
+
+.nav__btn{
+   font-family: 'Roboto'; 
+   font-weight: 700;
+   font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #D5D5D6;
+}
+
+.header__btn{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: 11px solid #5a5555;
+    background: #FFC611;
+    width: 603px;
+    margin: 177px auto 113px;
+    border-radius: 50px;
+    display: block;
+    color: #000;
+    text-align: center;
+    text-shadow: 4px 4px 4px #0047FF;
+    padding: 15px;
+}
+
+.header__box{
+    background-color: #1F1F1F;
+    width: 361px;
+    gap: 127px;
+    
+top: 478px;
+left: 540px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.box{
+    font-family: 'Roboto';
+font-weight: 600;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+    color: black;
+    text-shadow: 0px 4px 4px #FFC200;
+}
+
+.imformation__info{
+    background-color: #000;
+    width: 1521px;
+height: 900px;
+top: 1021px;
+
+
+}
+
+h1{
+    color: #5A5555;
+    text-shadow: 0px 4px 4px #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}
+
+.card{
+    display: flex;
+    gap: 87px;
+}
+
+.back__yellow{
+    background-color: #FFC611;
+    width: 1521px;
+    height: 158px;
+    top: 2057px;
+    display: flex;
+}
+
